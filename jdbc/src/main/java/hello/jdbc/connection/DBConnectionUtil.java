@@ -1,6 +1,6 @@
 package hello.jdbc.connection;
 
-import static hello.jdbc.connection.Connection.*;
+import static hello.jdbc.connection.ConnectionConst.*;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;

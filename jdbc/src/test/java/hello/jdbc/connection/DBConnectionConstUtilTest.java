@@ -6,7 +6,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 @Slf4j
-public class DBConnectionUtilTest {
+public class DBConnectionConstUtilTest {
     @Test
     void connection() {
         Connection connection = DBConnectionUtil.getConnection();
