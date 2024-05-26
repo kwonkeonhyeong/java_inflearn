@@ -38,6 +38,4 @@ public class ControllerV4HandlerAdapter implements MyHandlerAdapter {
         request.getParameterNames().asIterator().forEachRemaining(paramName -> paramMap.put(paramName, request.getParameter(paramName)));
         return paramMap;
     }
-
-
 }
